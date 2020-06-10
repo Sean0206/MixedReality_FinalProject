@@ -47,4 +47,8 @@ public class TestPython : MonoBehaviour {
             p.Close();
         }
     }
+
+    public void Detect() {
+        t = true;
+    }
 }
