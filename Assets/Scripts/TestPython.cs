@@ -15,7 +15,7 @@ public class TestPython : MonoBehaviour {
     void Update() {
         if(t) {
             t = false;
-            string path = Application.dataPath + @"/playgtts.exe";
+            string path = Application.dataPath + @"/playgtts/playgtts.exe";
             Process p = new Process();
             p.StartInfo.WorkingDirectory = Application.dataPath;
             p.StartInfo.FileName = path;
